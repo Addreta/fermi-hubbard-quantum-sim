@@ -9,7 +9,7 @@ commutator norm ||[H_hop, H_int]|| and the onset of spin-charge
 separation — providing a physical criterion for when Trotterization fails.
 
 ## Pipeline
-QuSpin (exact) → OpenFermion (JW mapping) → Qiskit (VQE + Trotter)
+QuSpin (exact) → OpenFermion (JW mapping) → Qiskit + SciPy (Trotter simulation)
 
 ## Requirements
 pip install quspin openfermion qiskit qiskit-aer qiskit-nature qiskit-algorithms
