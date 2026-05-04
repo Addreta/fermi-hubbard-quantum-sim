@@ -14,4 +14,7 @@ QuSpin (exact) → OpenFermion (JW mapping) → Qiskit + SciPy (Trotter simulati
 pip install quspin openfermion qiskit qiskit-aer qiskit-nature qiskit-algorithms
 
 ## Reference
-Motivated by Chowdhury et al., Applied Physics Reviews (2026)
+
+Motivated by Chowdhury et al. (IBM quantum hardware, Fermi-Hubbard simulation) 
+and the Google Willow demonstration of 2D Fermi-Hubbard dynamics beyond exact 
+classical simulation (Faisal Alam et al., 2025).
