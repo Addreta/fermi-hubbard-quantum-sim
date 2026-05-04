@@ -3,7 +3,7 @@
 Classical simulation pipeline for the 1D Fermi-Hubbard model
 using QuSpin, OpenFermion, and Qiskit.
 
-#Central Finding
+##Central Finding
 
 Trotter error grows with U/t, bounded above by the commutator norm 
 ||[H_hop, H_int]||, with spin-charge separation marking the physically 
