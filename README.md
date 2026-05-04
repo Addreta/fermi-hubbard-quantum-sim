@@ -3,9 +3,11 @@
 Classical simulation pipeline for the 1D Fermi-Hubbard model
 using QuSpin, OpenFermion, and Qiskit.
 
-## Central Finding
-Trotter error grows with U/t, bounded above by the commutator norm ||[H_hop, H_int]|| and the onset of spin-charge
-separation, providing a physical criterion for when Trotterization fails.
+#Central Finding
+
+Trotter error grows with U/t, bounded above by the commutator norm 
+||[H_hop, H_int]||, with spin-charge separation marking the physically 
+relevant strongly-correlated regime where Trotterization becomes costly.
 
 ## Pipeline
 QuSpin (exact) → OpenFermion (JW mapping) → Qiskit + SciPy (Trotter simulation)
