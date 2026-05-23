@@ -5,9 +5,7 @@ using QuSpin, OpenFermion, and Qiskit.
 
 ## Central Finding
 
-Trotter error grows with U/t, bounded above by the commutator norm 
-||[H_hop, H_int]||, with spin-charge separation marking the physically 
-relevant strongly-correlated regime where Trotterization becomes costly.
+Trotter error grows monotonically with U/t, driven by the linearly increasing commutator norm ‖[H_hop, H_int]‖ ∝ U/t, which controls the per-step error bound. The 2nd-order (Strang) decomposition consistently reduces accumulated error by ~1 order of magnitude. The large-U/t regime, where spin-charge separation is manifest in the correlation dynamics, coincides with the parameter space where simulation cost is highest.
 
 ## Pipeline
 QuSpin (exact) → OpenFermion (JW mapping) → Qiskit + SciPy (Trotter simulation)
